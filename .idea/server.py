@@ -38,7 +38,7 @@ def client_handle(c_sock, c_addr, state):  # to be implemented
 
 
     channels['SYSAR'].append((nick))
-
+    print("HEJ")
     # users[nick].queue.append((nick, msg))
 
     print('Choose channel(s):')
